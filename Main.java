@@ -4,6 +4,16 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Grafo grafo = new Grafo();
+        grafo.inserirVertice(1);
+        grafo.inserirVertice(2);
+        grafo.inserirVertice(3);
+        grafo.inserirVertice(4);
+
+        grafo.inserirAresta(1, 2, 1);
+        grafo.inserirAresta(1, 3, 4);
+        grafo.inserirAresta(4, 1, 60);
+
+
 
         while (true) {
             System.out.println("Escolha uma opção:");
